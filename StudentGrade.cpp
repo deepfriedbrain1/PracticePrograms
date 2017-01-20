@@ -30,6 +30,7 @@ int main()
 	{
 		cout << "Cannot open the input file. "
 		<< "Program terminates." << endl;
+		return 1;
 	}
 	
 	outFile.open("testavg.out");
