@@ -26,6 +26,12 @@ int main()
 	string lastName;
 	
 	inFile.open("test.txt");
+	if (!inFile)
+	{
+		cout << "Cannot open the input file. "
+		<< "Program terminates." << endl;
+	}
+	
 	outFile.open("testavg.out");
 	
 	outFile << fixed << showpoint;
