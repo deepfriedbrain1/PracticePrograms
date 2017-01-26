@@ -24,7 +24,7 @@ int main()
 	cin >> prev1 >> prev2;
 	cout << endl;
 	
-	cout << "The first tow Fibonacci numbers are "
+	cout << "The first two Fibonacci numbers are "
 		 << prev1 << " and " << prev2 << endl;
 		 
 	cout << "Enter the position of the desired Fibonacci number: ";
